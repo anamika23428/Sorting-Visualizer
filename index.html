@@ -10,6 +10,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
     <title>Sorting Visualizer</title>
 
@@ -18,22 +19,17 @@
 </head>
 <body>
 
-    <header>
-        <nav>
-            
-
-            <div class="header_right">
-                <p class="nav-heading">SORTING VISUALIZER</p>
-
-                <div class="algos">
+    <nav >
+                <p class="nav-heading ">SORTING VISUALIZER</p>
+                <div class="algos hidden md:flex space-x-5  items-center width-full py-2">
                     <button class="button button1" style="font-size: 20px;">Bubble</button>
                     <button class="button button2" style="font-size: 20px;">Selection</button>
                     <button class="button button3" style="font-size: 20px;" >Insertion</button>
                     <button class="button button4" style="font-size: 20px;">Merge</button>
                     <button class="button button5" style="font-size: 20px;">Quick</button>
                     <button class="button button6" style="font-size: 20px;">Heap</button>
+                
                 </div>
-            </div>
             <div class="array-inputs">
                 <p>Size of array:</p>
                 <input id="a_size" type="range" min=20 max=150 step=1 value=80>
@@ -41,9 +37,7 @@
                 <input id="a_speed" type="range" min=1 max=5 step=1 value=4>
                 <button id="a_generate">Generate New Array!</button>
             </div>
-
         </nav>
-    </header>
 
     <section>
 
