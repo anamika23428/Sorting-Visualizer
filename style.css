@@ -16,7 +16,7 @@ nav {
     color: white;
     align-items: center;
     padding: 10px 5%;
-    border-bottom: 4px solid #3EB467; /* Adds a separator between header and content */
+    border-bottom: 2px solid #3EB467; /* Adds a separator between header and content */
 }
 
 nav .array-inputs {
@@ -32,7 +32,7 @@ nav .array-inputs > div {
 
 nav .array-inputs #a_size,
 nav .array-inputs #a_speed {
-    padding: 10px 10px;
+    padding: 8px 10px;
     border-radius: 5px;
     border: 1px solid #ccc;
     background-color: #fff;
@@ -55,50 +55,72 @@ nav .array-inputs #a_generate:hover {
     color: black;
 }
 
-nav  .nav-heading {
+nav .header_right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0;
+}
+
+nav .header_right .nav-heading {
     font-size: 2em;
     padding: 10px 0;
     color: #ffffff;
 }
 
+nav .header_right .algos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap; 
+    gap: 10px; 
+    padding: 10px 0;
+    width: 100%;
+    overflow-x: auto; 
+}
 
-nav  .algos button {
+nav .header_right .algos > * {
+    padding: 5px 0;
+}
+
+nav .header_right .algos button {
     background-color: transparent;
     border: 2px solid #ffffff;
     color: white;
-    padding: 10px 15px; 
+    padding: 8px 15px; 
     font-size: medium;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-nav .algos button:hover {
+nav .header_right .algos button:hover {
     background-color: #E5E7E9;
     color: black;
 }
 
-nav .algos .butt_locked {
+nav .header_right .algos .butt_locked {
     background-color: transparent;
     cursor: not-allowed;
 }
 
-nav .algos .butt_locked:hover {
+nav .header_right .algos .butt_locked:hover {
     background-color: transparent;
 }
 
-nav  .algos .butt_selected {
+nav .header_right .algos .butt_selected {
     background-color: white;
     color: green;
     border: 2px solid green;
 }
 
-nav  .algos .butt_selected:hover {
+nav .header_right .algos .butt_selected:hover {
     background-color: white;
     cursor: pointer;
 }
 
-nav  .algos .butt_unselected:hover {
+nav .header_right .algos .butt_unselected:hover {
     background-color: #E5E7E9;
     cursor: pointer;
 }
@@ -112,17 +134,19 @@ section {
 
 /* section #Info_Cont1,
 section #Info_Cont2 {
-    padding: 0px 10px;
+    padding: 1px;
     flex: 1;
     margin: 0 10px;
 } */
 
 section #array_container {
     display: flex;
-    margin: 0px 60px;
+    padding: 10px;
+    border-radius: 8px;
     width: 100%;
-    height: 68vh;
+    height: 55vh;
     justify-content: space-between;
+    background-color: #335367;
 }
 
 .hide {
