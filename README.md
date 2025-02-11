@@ -2,7 +2,7 @@
 
 **Sorting Visualizer** is a web application designed to visually demonstrate the functionality of various sorting algorithms. Users can interactively select different algorithms, set the size and speed of the array, and watch how the array gets sorted step by step. This tool helps to better understand the inner workings of sorting algorithms.
 <video width="600" controls>
-  <source src="video.mp4" type="video/mp4">
+  <source src="video.mp4" type="Sorting_video/mp4">
   Your browser does not support the video tag.
 </video>
 
