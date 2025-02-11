@@ -24,7 +24,7 @@ To get the project running locally, follow these steps:
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/yourusername/sorting-visualizer.git
+   git clone https://github.com/anamika23428/sorting-visualizer.git
    cd sorting-visualizer
    ```
 
